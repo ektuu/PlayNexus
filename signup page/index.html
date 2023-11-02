@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <section>
+        <div class="signup-box">
+            <form action="#" method="post">
+                <h2>Signup</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name ="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="calendar">
+                    <label>Date of birth</label><br>
+
+                    <input type="date" class="dob" name="dob" required>
+
+                </div>
+                <br>
+
+                <div class="gender">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="tel" name="tel" required>
+                    <label>Phone no</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="text" name="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+
+
+                <!-- <button type="submit" name="submit">Signup</button> -->
+                <a href="../login page/login.html"><input type="submit" name="submit" class="button" value="Submit"/></a>
+            </form> 
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
